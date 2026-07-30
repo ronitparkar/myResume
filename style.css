@@ -284,4 +284,6 @@
     .edu-grid{grid-template-columns:1fr;}
     .stat-row{flex-wrap:wrap;gap:20px;}
     .skills-grid{grid-template-columns:repeat(1 ,minmax(0,1fr));}
+    .nav-right {display: none;}
+    .nav-inner {justify-content: center;}
   }
