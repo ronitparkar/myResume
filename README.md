@@ -1,448 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ronit Parkar — Frontend &amp; Web Developer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
- 
-<header class="nav">
-  <div class="nav-inner">
-    <div class="logo">
-      <span class="dim">const</span> <span class="accent">Ronit</span><span class="dim">.</span><span class="accent">Parkar</span> <span class="dim">=</span> <span class="dim">{}</span><span class="blink"></span>
-    </div>
-    <nav class="links">
-      <a href="#about" data-num="01" data-section="about">Profile</a>
-      <a href="#skills" data-num="02" data-section="skills">Skills</a>
-      <a href="#projects" data-num="03" data-section="projects">Projects</a>
-      <a href="#experience" data-num="04" data-section="experience">Experience</a>
-      <a href="#education" data-num="05" data-section="education">Education</a>
-      <a href="#contact" data-num="06" data-section="contact">Contact</a>
-    </nav>
-    <div class="nav-right">
-      <div class="theme-toggle" id="themeToggle">
-        <span id="lightBtn" class="active">&lt;light/&gt;</span>
-        <span id="darkBtn">&lt;dark/&gt;</span>
-      </div>
-      <a class="btn-cta" href="#contact">Hire me</a>
-    </div>
-  </div>
-</header>
- 
-<main>
-  <section class="hero">
-    <div class="wrap hero-grid">
-      <div>
-        <div class="eyebrow">FRONTEND-LEANING WEB DEVELOPER · MUMBAI, IN</div>
-        <h1 class="headline">I build websites<br>that load <span class="stroke">fast</span><br>and convert <span class="stroke">better.</span></h1>
-        <p class="lede">4+ years shipping responsive, SEO-optimized sites across WordPress, Shopify, Wix, PHP and Adobe Experience Manager with a growing focus on modern JavaScript and React front-ends.</p>
-        <div class="hero-ctas">
-          <a class="btn-primary" href="#experience">View experience →</a>
-          <a class="btn-ghost" href="#contact">Get in touch</a>
-        </div>
-        <div class="stat-row">
-          <div class="stat"><b>90%</b><span>sales lift from CRO work</span></div>
-          <div class="stat"><b>30–40%</b><span>faster page load speeds</span></div>
-          <div class="stat"><b>4+ yrs</b><span>across 4 development teams</span></div>
-        </div>
-      </div>
- 
-      <div class="orbit-stage">
-        <div class="ring r3"></div>
-        <div class="ring r2"></div>
-        <div class="ring r1"></div>
-        <div class="orbit-core">
-          <img src="images/ronit.png" alt="Ronit Parkar" style="width:250px;height:350px;">
-        </div>
- 
-        <div class="orbiter" style="animation-duration:22s;">
-          <div class="icon" style="transform:translate(calc(10% + 115px), -50%); background:var(--surface);">
-            <img src="images/html.svg" alt="HTML" style="width:24px;height:24px;position:absolute;">
-          </div>
-        </div>
-        <div class="orbiter" style="animation-duration:22s; animation-delay:-3.7s;">
-          <div class="icon" style="transform:translate(calc(50% + 115px), -50%); background:var(--surface);">
-            <img src="images/css.svg" alt="CSS" style="width:24px;height:24px;position:absolute;">
-          </div>
-        </div>
-        <div class="orbiter" style="animation-duration:26s; animation-delay:-9s;">
-          <div class="icon" style="transform:translate(calc(-50% + 100px), -50%); background:var(--surface);">
-            <img src="images/js.svg" alt="JavaScript" style="width:24px;height:24px;position:absolute;">
-            </div>
-        </div>
-        <div class="orbiter" style="animation-duration:26s; animation-delay:-15s;">
-          <div class="icon" style="transform:translate(calc(30% + 115px), -50%); background:var(--surface);">
-            <img src="images/php.svg" alt="PHP" style="width:24px;height:24px;position:absolute;">
-          </div>
-        </div>
-        <div class="orbiter" style="animation-duration:30s; animation-delay:-4s;">
-          <div class="icon" style="transform:translate(calc(-50% + 115px), 50%); background:var(--surface);">
-            <img src="images/sql.svg" alt="SQL" style="width:24px;height:24px;position:absolute;">
-          </div>
-        </div>
-        <div class="orbiter" style="animation-duration:30s; animation-delay:-19s;">
-          <div class="icon" style="transform:translate(calc(-50% + 115px), 150%); background:var(--surface);">
-            <img src="images/figma.svg" alt="Figma" style="width:24px;height:24px;position:absolute;">
-          </div>
-        </div>
-        <div class="orbit-caption">HTML · CSS · JS · WordPress · PHP · SQL</div>
-      </div>
-    </div>
-  </section>
- 
-  <section id="about">
-    <div class="wrap">
-      <div class="section-head"><span class="idx">01</span><h2>Profile</h2><span class="line"></span></div>
-      <div class="about-grid">
-        <div class="reveal">
-          <p>I'm <b>Ronit Parkar</b>, a web developer based in Mumbai with over four years of hands-on experience designing, building, and maintaining production websites for marketing, e-commerce and ERP clients. My work sits at the intersection of <b>front-end craft</b> and <b>measurable business outcomes</b> — I don't just ship pages, I audit how they perform and iterate until they convert.</p>
-          <p>Across WordPress, Shopify, Wix, PHP and Adobe Experience Manager, I've led CRO initiatives that drove a <b>90% increase in sales</b> for Shopify storefronts, and repeatedly improved page load speed by <b>30–40%</b> through image optimization, reduced render-blocking scripts and cleaner page structure. I'm comfortable owning a build end-to-end: layout, content, performance, deployment and hosting.</p>
-          <p>I collaborate closely with marketing, design and backend teams, translating Figma and Photoshop mockups into pixel-accurate, mobile-responsive pages — and I back design decisions with A/B testing and analytics rather than guesswork.</p>
-        </div>
-        <div class="learning-card">
-          <span class="tag">CURRENTLY LEVELING UP</span>
-          <h3><span class="pulse-dot"></span>JavaScript (Advanced) &amp; React.js</h3>
-          <p>Actively deepening my front-end fundamentals beyond CMS platforms — building personal projects in modern JavaScript and React to move further into product-grade front-end development.</p>
-        </div>
-      </div>
-    </div>
-  </section>
- 
-  <section id="skills">
-    <div class="wrap">
-      <div class="section-head"><span class="idx">02</span><h2>Skills</h2><span class="line"></span></div>
-      <div class="skills-grid">
-        <div class="skill-card reveal">
-          <span class="cat-label">// core</span>
-          <h3>Languages</h3>
-          <div class="chip-row">
-            <span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">PHP</span>
-          </div>
-        </div>
-        <div class="skill-card reveal">
-          <span class="cat-label">// cms &amp; platforms</span>
-          <h3>Platforms</h3>
-          <div class="chip-row">
-            <span class="chip">Shopify</span><span class="chip">Wordpress</span><span class="chip">Custom Shopify Themes</span><span class="chip">Wix</span><span class="chip">Adobe AEM</span>
-          </div>
-        </div>
-        <div class="skill-card reveal">
-          <span class="cat-label">// deployment</span>
-          <h3>Hosting &amp; Ops</h3>
-          <div class="chip-row">
-            <span class="chip">cPanel</span><span class="chip">Plesk</span><span class="chip">VPS</span><span class="chip">SSL Configuration</span>
-          </div>
-        </div>
-        <div class="skill-card reveal">
-          <span class="cat-label">// design &amp; debugging</span>
-          <h3>Design Tooling</h3>
-          <div class="chip-row">
-            <span class="chip">Figma</span><span class="chip">Image Optimization</span><span class="chip">Chrome DevTools</span>
-          </div>
-        </div>
-        <div class="skill-card reveal">
-          <span class="cat-label">// growth</span>
-          <h3>Optimization</h3>
-          <div class="chip-row">
-            <span class="chip">SEO Best Practices</span><span class="chip">CRO</span><span class="chip">A/B Testing</span><span class="chip">Page Speed Audits</span>
-          </div>
-        </div>
-        <div class="skill-card reveal">
-          <span class="cat-label">// analytics</span>
-          <h3>Data &amp; Tracking</h3>
-          <div class="chip-row">
-            <span class="chip">Google Data Studio</span><span class="chip">Data Layer Implementation</span><span class="chip">Responsive Design</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+# 👋 Hi, I'm Ronit Parkar
 
-  <section id="projects">
-    <div class="wrap">
-      <div class="section-head"><span class="idx">03</span><h2>Projects</h2><span class="line"></span></div>
-      <p class="projects-intro reveal">Live, in-production websites I've taken from <b>client brief to deployment.</b> Planning the structure, building the storefront, and handling every requirement change directly with the client, usually ahead of the agreed timeline.</p>
+Frontend & Web Developer specializing in WordPress, Shopify, Wix, PHP and JavaScript.
 
-      <div class="proj-grid">
-        <div class="proj-card reveal">
-            <div class="proj-top"><span class="proj-name">Lunaya Jewelry</span><span class="proj-platform">Shopify</span></div>
-            <p class="proj-desc">Jewelry D2C brand with a polished, editorial-style product presentation.</p>
-            <div class="proj-tags"><span>Storefront</span><span>CRO</span></div>
-            <a class="proj-link" href="https://lunayajewelry.in/" target="_blank" rel="noopener">lunayajewelry.in <span class="arrow">→</span></a>
-        </div>
+## 🌐 Live Portfolio
 
-        <div class="proj-card reveal">
-            <div class="proj-top"><span class="proj-name">Scentz Company</span><span class="proj-platform">Shopify</span></div>
-            <p class="proj-desc">Home-fragrance and candle brand storefront focused on clean, product-first browsing.</p>
-            <div class="proj-tags"><span>Storefront</span><span>CRO</span></div>
-            <a class="proj-link" href="https://www.scentzcompany.com/" target="_blank" rel="noopener">scentzcompany.com <span class="arrow">→</span></a>
-        </div>
+🔗 https://yourusername.github.io/portfolio/
 
-        <div class="proj-card reveal">
-            <div class="proj-top"><span class="proj-name">Charkha &amp; Loom</span><span class="proj-platform">Shopify</span></div>
-            <p class="proj-desc">Handloom textile brand showcasing traditionally woven fabric collections.</p>
-            <div class="proj-tags"><span>Storefront</span><span>CRO</span></div>
-            <a class="proj-link" href="https://charkhaandloom.com/" target="_blank" rel="noopener">charkhaandloom.com <span class="arrow">→</span></a>
-        </div>
+---
 
-        <div class="proj-card reveal">
-            <div class="proj-top"><span class="proj-name">Cotton Cottage India</span><span class="proj-platform">Shopify</span></div>
-            <p class="proj-desc">Cotton home-textiles and apparel store built for a comfort-first shopping experience.</p>
-            <div class="proj-tags"><span>Storefront</span><span>E-commerce</span><span>CRO</span></div>
-            <a class="proj-link" href="https://cottoncottageindia.com/" target="_blank" rel="noopener">cottoncottageindia.com <span class="arrow">→</span></a>
-        </div>
+## 📸 Preview
 
-        <div class="proj-card reveal">
-            <div class="proj-top"><span class="proj-name">ForceUSA</span><span class="proj-platform">Shopify</span></div>
-            <p class="proj-desc">Gym equipment store with a focus on quality and performance.</p>
-            <div class="proj-tags"><span>Storefront</span><span>E-commerce</span></div>
-            <a class="proj-link" href="https://forceusa.in/" target="_blank" rel="noopener">forceusa.in <span class="arrow">→</span></a>
-        </div>
+<p align="center">
+  <img src="images/portfolio-preview.png" alt="Portfolio Preview" width="100%">
+</p>
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Silicomolds</span><span class="proj-platform">Shopify</span></div>
-          <p class="proj-desc">D2C store for premium silicone molds used in soap, candle, resin and home-décor crafting.</p>
-          <div class="proj-tags"><span>Theme Build</span><span>CRO</span><span>E-commerce</span></div>
-          <a class="proj-link" href="https://silicomolds.com/" target="_blank" rel="noopener">silicomolds.com <span class="arrow">→</span></a>
-        </div>
+---
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Military Marvels</span><span class="proj-platform">Shopify</span></div>
-          <p class="proj-desc">Apparel and merchandise store for military-themed jackets, patches, jewellery and décor.</p>
-          <div class="proj-tags"><span>Theme Build</span><span>E-commerce</span><span>Catalog Setup</span></div>
-          <a class="proj-link" href="https://militarymarvels.com/" target="_blank" rel="noopener">militarymarvels.com <span class="arrow">→</span></a>
-        </div>
+## 🚀 Skills
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Fab Habitat</span><span class="proj-platform">Shopify</span></div>
-          <p class="proj-desc">Sustainable home-décor brand selling rugs and furnishings made from upcycled, natural fibers.</p>
-          <div class="proj-tags"><span>Storefront</span><span>Brand Site</span></div>
-          <a class="proj-link" href="https://fabhabitat.com/" target="_blank" rel="noopener">fabhabitat.com <span class="arrow">→</span></a>
-        </div>
+- HTML5
+- CSS3
+- JavaScript
+- PHP
+- WordPress
+- Shopify
+- Wix
+- Adobe Experience Manager
+- React (Learning)
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Soul Foods</span><span class="proj-platform">Shopify</span></div>
-          <p class="proj-desc">D2C food brand selling pickles, chutneys and combo packs across multiple marketplaces.</p>
-          <div class="proj-tags"><span>Storefront</span><span>CRO</span></div>
-          <a class="proj-link" href="https://soul-foods.in/" target="_blank" rel="noopener">soul-foods.in <span class="arrow">→</span></a>
-        </div>
+---
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Sapana Carpet-Mats</span><span class="proj-platform">Shopify</span></div>
-          <p class="proj-desc">Large product catalog for chatai mats, rugs, carpets and doormats with size/colour filtering.</p>
-          <div class="proj-tags"><span>Theme Build</span><span>Large Catalog</span></div>
-          <a class="proj-link" href="https://sapanacarpetmats.com/" target="_blank" rel="noopener">sapanacarpetmats.com <span class="arrow">→</span></a>
-        </div>
+## 📂 Projects
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Artsy Paris</span><span class="proj-platform wix">Wix</span></div>
-          <p class="proj-desc">Art-led lifestyle brand site built end-to-end on Wix, from layout to launch.</p>
-          <div class="proj-tags"><span>Full Build</span><span>Content Updates</span></div>
-          <a class="proj-link" href="https://www.artsyparis.fr/" target="_blank" rel="noopener">artsyparis.fr <span class="arrow">→</span></a>
-        </div>
+| Project | Platform | Link |
+|---------|----------|------|
+| Lunaya Jewelry | Shopify | https://lunayajewelry.in |
+| Scentz Company | Shopify | https://www.scentzcompany.com |
+| Cotton Cottage | Shopify | https://cottoncottageindia.com |
+| ForceUSA | Shopify | https://forceusa.in |
+| Soul Foods | Shopify | https://soul-foods.in |
+| Military Marvels | Shopify | https://militarymarvels.com |
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Novahouse</span><span class="proj-platform wix">Wix</span></div>
-          <p class="proj-desc">Home and living brand site built on Wix with ongoing page and content maintenance.</p>
-          <div class="proj-tags"><span>Full Build</span><span>Maintenance</span></div>
-          <a class="proj-link" href="https://www.novahouse.in/" target="_blank" rel="noopener">novahouse.in <span class="arrow">→</span></a>
-        </div>
+---
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Artemis</span><span class="proj-platform wix">Wix</span></div>
-          <p class="proj-desc">Insurance broker Landing page for promoting insurance products and maintenance.</p>
-          <div class="proj-tags"><span>Landing Pages</span><span>Maintenance</span></div>
-          <a class="proj-link" href="https://www.artemisltd.co.uk/" target="_blank" rel="noopener">artemisltd.co.uk <span class="arrow">→</span></a>
-        </div>
+## 💼 Experience
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Acuserve</span><span class="proj-platform wix">Wix</span></div>
-          <p class="proj-desc">Custom web development services for small to medium-sized businesses.</p>
-          <div class="proj-tags"><span>Landing Pages</span><span>Maintenance</span></div>
-          <a class="proj-link" href="https://www.acuserve.in/" target="_blank" rel="noopener">acuserve.in <span class="arrow">→</span></a>
-        </div>
+### Marketincrew
+**Web Developer** (Jan 2026 – Jun 2026)
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">GTSxc</span><span class="proj-platform wix">Wix</span></div>
-          <p class="proj-desc">AI-powered platform for managing and optimizing digital marketing campaigns.</p>
-          <div class="proj-tags"><span>Full Build</span><span>Maintenance</span></div>
-          <a class="proj-link" href="https://www.gtscx.ai/" target="_blank" rel="noopener">gtscx.ai <span class="arrow">→</span></a>
-        </div>
+- Wix Development
+- Shopify CRO
+- Performance Optimization
+- A/B Testing
+- Image Optimization
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">creativecraftsdxb</span><span class="proj-platform wordpress">WooCommerce</span></div>
-          <p class="proj-desc">Support and maintenance for a WordPress-based creative website.</p>
-          <div class="proj-tags"><span>Support</span><span>Maintenance</span></div>
-          <a class="proj-link" href="https://creativecraftsdxb.com/" target="_blank" rel="noopener">creativecraftsdxb.com <span class="arrow">→</span></a>
-        </div>
+### Eresource ERP
+**WordPress Developer**
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Fourth Partner Energy</span><span class="proj-platform wordpress">Wordpress</span></div>
-          <p class="proj-desc">From Selecting theme to implementing on server and technologies</p>
-          <div class="proj-tags"><span>Support</span><span>Maintenance</span></div>
-          <a class="proj-link" href="https://fourthpartner.co/" target="_blank" rel="noopener">fourthpartner.co <span class="arrow">→</span></a>
-        </div>
+- WordPress
+- SEO
+- VPS
+- cPanel
+- Landing Pages
 
-        <div class="proj-card reveal">
-          <div class="proj-top"><span class="proj-name">Sun Petro</span><span class="proj-platform wordpress">Wordpress</span></div>
-          <p class="proj-desc">Revamp whole website</p>
-          <div class="proj-tags"><span>Support</span><span>Maintenance</span></div>
-          <a class="proj-link" href="https://www.sunpetro.com/" target="_blank" rel="noopener">sunpetro.com <span class="arrow">→</span></a>
-        </div>
+### Futuready Media LLP
+**Web Developer Consultant**
 
-      </div>
-    </div>
-  </section>
- 
-  <section id="experience">
-    <div class="wrap">
-      <div class="section-head"><span class="idx">03</span><h2>Experience</h2><span class="line"></span></div>
-      <div class="timeline">
- 
-        <div class="job reveal">
-          <div class="job-head"><h3>Web Developer</h3><span class="dates">Jan 2026 – Jun 2026</span></div>
-          <p class="job-company">Marketincrew · Mumbai, Maharashtra</p>
-          <ul>
-            <li>Built, customized and maintained client websites on <b>Wix</b> — end-to-end layout design, content updates and ongoing page edits.</li>
-            <li>Led <b>CRO</b> initiatives across Shopify stores, restructuring product pages, checkout flows and CTAs — driving a <b>90% increase in sales</b>.</li>
-            <li>Audited and optimized site performance, improving average page load speed by <b>30–40%</b> through image compression and streamlined structure.</li>
-            <li>Ran A/B tests on landing pages and product layouts to validate changes before full rollout.</li>
-            <li>Sourced, edited and optimized images for web use, balancing visual quality against load time.</li>
-          </ul>
-        </div>
- 
-        <div class="job reveal">
-          <div class="job-head"><h3>WordPress Developer</h3><span class="dates">Jan 2025 – Jul 2025</span></div>
-          <p class="job-company">Eresource ERP · Thane, Maharashtra</p>
-          <ul>
-            <li>Built and maintained dynamic <b>WordPress</b> sites for ERP product marketing, including responsive landing pages with integrated forms.</li>
-            <li>Improved organic search visibility by implementing <b>SEO</b> best practices across marketing pages.</li>
-            <li>Managed deployment and configuration on <b>cPanel, Plesk and VPS</b>, including performance tuning.</li>
-            <li>Used <b>Figma</b> and <b>Photoshop</b> to translate design mockups into clean, consistent layouts.</li>
-          </ul>
-        </div>
- 
-        <div class="job reveal">
-          <div class="job-head"><h3>Web Developer Consultant</h3><span class="dates">Feb 2023 – Dec 2024</span></div>
-          <p class="job-company">Futuready Media LLP · Mumbai, Maharashtra</p>
-          <ul>
-            <li>Managed content workflows in <b>Adobe Experience Manager (AEM)</b> across multiple platforms.</li>
-            <li>Designed, developed and deployed AEM web pages and components to brand standards.</li>
-            <li>Built and maintained sites across <b>WordPress, PHP and Shopify</b>, integrating custom themes and third-party plugins.</li>
-            <li>Developed <b>Shopify themes from scratch</b> for partner projects, going beyond templated builds.</li>
-          </ul>
-        </div>
- 
-        <div class="job reveal">
-          <div class="job-head"><h3>Jr. Web Developer (PHP)</h3><span class="dates">Jul 2021 – Dec 2022</span></div>
-          <p class="job-company">Performious Digital Marketing Agency · Mumbai, Maharashtra</p>
-          <ul>
-            <li>Contributed to design, development and deployment of client sites, including UI testing.</li>
-            <li>Diagnosed and resolved functionality issues, improving site stability and performance.</li>
-            <li>Set up and managed sites on <b>VPS</b>, including cPanel deployment and SSL certification.</li>
-            <li>Implemented <b>Data Layer</b> tracking and <b>Google Data Studio</b> reporting for client analytics.</li>
-          </ul>
-        </div>
- 
-      </div>
-    </div>
-  </section>
- 
-  <section id="education">
-    <div class="wrap">
-      <div class="section-head"><span class="idx">04</span><h2>Education</h2><span class="line"></span></div>
-      <div class="edu-grid">
-        <div class="edu-card reveal">
-          <span class="yr">2017 – 2019</span>
-          <h3>Diploma in Software Development</h3>
-          <p>Compufield Computer Institute (ISO Certified) — A Grade</p>
-        </div>
-        <div class="edu-card reveal">
-          <span class="yr">2013 – 2014</span>
-          <h3>HSC</h3>
-          <p>M.D. College of Arts &amp; Science</p>
-        </div>
-        <div class="edu-card reveal">
-          <span class="yr">2011 – 2012</span>
-          <h3>SSC</h3>
-          <p>Shri DNK &amp; Shri LVA English High School — Maharashtra State Board</p>
-        </div>
-      </div>
-    </div>
-  </section>
- 
-  <footer id="contact">
-    <div class="wrap">
-      <div class="contact-grid">
-        <div class="reveal">
-          <div class="eyebrow"><span class="rule"></span> 05 · GET IN TOUCH</div>
-          <h2>Let's build<br>something fast.</h2>
-          <p style="color:var(--muted);font-size:15.5px;max-width:420px;line-height:1.7;">Open to front-end and full-stack web developer roles where performance and conversion actually matter.</p>
-        </div>
-        <div class="contact-links reveal">
-          <a href="mailto:rony.parkar591@gmail.com"><span>rony.parkar591@gmail.com</span><span class="label">EMAIL</span></a>
-          <a href="tel:+918652893123"><span>+91 86528 93123</span><span class="label">PHONE</span></a>
-          <a href="#"><span>Mumbai, Maharashtra, India</span><span class="label">LOCATION</span></a>
-        </div>
-      </div>
-      <p class="signature">"I hereby certify the above information is true and correct." — <b>Ronit Parkar</b></p>
-      <div class="foot-bottom">
-        <span>&copy; 2026 Ronit Parkar</span>
-        <span>Built with HTML · CSS · JS</span>
-      </div>
-    </div>
-  </footer>
-</main>
- 
-<script>
-  // Theme toggle
-  const root = document.documentElement;
-  const lightBtn = document.getElementById('lightBtn');
-  const darkBtn = document.getElementById('darkBtn');
-  function setTheme(mode){
-    if(mode === 'dark'){
-      root.classList.add('dark');
-      darkBtn.classList.add('active');
-      lightBtn.classList.remove('active');
-    } else {
-      root.classList.remove('dark');
-      lightBtn.classList.add('active');
-      darkBtn.classList.remove('active');
-    }
-  }
-  lightBtn.addEventListener('click', () => setTheme('light'));
-  darkBtn.addEventListener('click', () => setTheme('dark'));
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  setTheme(prefersDark ? 'dark' : 'light');
- 
-  // Scroll-spy nav
-  const navLinks = document.querySelectorAll('nav.links a');
-  const sections = document.querySelectorAll('main section[id]');
-  const spy = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if(entry.isIntersecting){
-        navLinks.forEach(l => l.classList.remove('active'));
-        const active = document.querySelector(`nav.links a[data-section="${entry.target.id}"]`);
-        if(active) active.classList.add('active');
-      }
-    });
-  }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
-  sections.forEach(s => spy.observe(s));
- 
-  // Reveal on scroll
-  const reveal = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if(entry.isIntersecting){
-        entry.target.classList.add('visible');
-        reveal.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15 });
-  document.querySelectorAll('.reveal').forEach(el => reveal.observe(el));
-</script>
-</body>
-</html>
+- Adobe Experience Manager
+- Shopify
+- WordPress
+- PHP
+
+---
+
+## 📫 Contact
+
+📧 rony.parkar591@gmail.com
+
+📱 +91 86528 93123
+
+📍 Mumbai, India
