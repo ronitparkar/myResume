@@ -185,6 +185,9 @@
  
   /* ---------- SKILLS ---------- */
   .skills-grid{display:grid;grid-template-columns:repeat(3 ,minmax(0,1fr));gap:20px;}
+  @media screen  {
+    
+  }
   .skill-card{
     background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
     padding:26px;transition:transform .3s ease, border-color .3s ease;
@@ -280,4 +283,5 @@
     .r3{display:none;}
     .edu-grid{grid-template-columns:1fr;}
     .stat-row{flex-wrap:wrap;gap:20px;}
+    .skills-grid{grid-template-columns:repeat(1 ,minmax(0,1fr));}
   }
